@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+		<head>
+		<meta charset="UTF-8">
+		<title>Morguna</title>
+		<style type="text/css">
+			.about_right
+			{
+				display: flex;
+				flex-flow: row nowrap;
+				align-items: center;
+			}
+			.about_right .text_wrap 
+			{
+				text-align: right;
+			}
+ 
+			.text_wrap 
+			{
+				padding: 0 30px 0 0;
+				flex: 0 1 50%;
+			}
+ 
+			.image_wrap
+			{
+				flex: 0 0 auto;
+				border-radius: 50%;
+				overflow: hidden;
+			}
+			.padd
+			{
+				margin-top:30px;
+				margin-left:100px;
+				margin-bottom:10px;
+				margin-right:40px;
+			}
+			body
+			{
+				background: #000 url(https://krot.info/uploads/posts/2021-01/1610490158_30-p-belii-fon-vo-ves-ekran-69.jpg); 
+				color: #000; 
+				background-attachment: fixed; 
+				background-repeat: repeat-x; 
+			}
+		</style>
+		<style type="text/css">
+
+			.tab { margin-left: 40px; }
+		</style>
+	</head>
+	<body>
+	<div class="about_right">
+		<div class="text_wrap">
+		<p class="padd">
+			<h2>Шаг 1:</h2><br>
+			
+			Сперва цветки одуванчика необходимо правильно собрать.<br> Собирать их нужно в середине дня.
+		</p>
+		</div>
+	<div class="image_wrap">
+		<img src="https://static.1000.menu/img/content-v2/de/ce/9965/varene-iz-oduvanchikov_1587029105_6_max.jpg" width="200px">
+	</div>
+	</div>
+	<div class="about_right">
+		<div class="text_wrap">
+		<p class="padd">
+			<h2>Шаг 2:</h2><br>
+			
+			Срываем только полностью раскрывшиеся цветы.<br>
+		</p>
+		</div>
+	<div class="image_wrap">
+		<img src="https://static.1000.menu/img/content-v2/de/ce/9965/varene-iz-oduvanchikov_1587029105_7_max.jpg" width="200px">
+	</div>
+	</div>
+	<div class="about_right">
+		<div class="text_wrap">
+		<p class="padd">
+			<h2>Шаг 3:</h2><br>
+			
+			А вот такие наполовину закрытые не подойдут. Дело все в количестве пыльцы.<br> 
+			В открытом одуванчике она вызревшая,<br> а в закрытом - или переспевшая, или наоборот - не доспевшая.
+		</p>
+		</div>
+	<div class="image_wrap">
+		<img src="https://static.1000.menu/img/content-v2/de/ce/9965/varene-iz-oduvanchikov_1587029105_8_max.jpg" width="200px">
+	</div>
+	</div>
+	<div class="about_right">
+		<div class="text_wrap">
+		<p class="padd">
+			<h2>Шаг 4:</h2><br>
+			
+			Для приготовления одной 650 граммовой банки варенья из одуванчиков понадобится 200 цветков одуванчиков,<br>
+			600 граммов сахара, пол литра воды и пол чайной ложки лимонной кислоты.<br> 
+			Я в этот раз готовила двойную норму на литр воды.
+		</p>
+		</div>
+	<div class="image_wrap">
+		<img src="https://static.1000.menu/img/content-v2/de/ce/9965/varene-iz-oduvanchikov_1587029105_9_max.jpg" width="200px">
+	</div>
+	</div>
+	<div class="about_right">
+		<div class="text_wrap">
+		<p class="padd">
+			<h2>Шаг 5:</h2><br>
+			Существует несколько вариантов варки варенья из одуванчиков.<br> 
+			В стеблях одуванчиков содержится млечный сок,который горчит.<br>
+			Чтобы избавиться от этой горечи, в большинстве рецептов одуванчики вымачивают 24 часа.<br>
+			Я же предлагаю Вам вариант без замачивания.<br>
+			Мы будем использовать только лепестки цветов без стеблей и чашелистиков.<br>
+			Для этого мы ножницами срезаем желтую часть одуванчика.
+		</p>
+		</div>
+	<div class="image_wrap">
+		<img src="https://static.1000.menu/img/content-v2/de/ce/9965/varene-iz-oduvanchikov_1587029105_10_max.jpg" width="200px">
+	</div>
+	</div>
+	<div class="about_right">
+		<div class="text_wrap">
+		<p class="padd">
+			<h2>Шаг 6:</h2><br>
+			Так выглядят срезанные лепестки 200 одуванчиков.<br>
+			Чтобы сохранить максимум пыльцы и, соответственно, целебных свойств одуванчика,<br>
+			мы даже не будем промывать наше будущее варенье.<br>
+			Сразу заливаем лепестки одуванчиков водой и ставим на огонь.
+		</p>
+		</div>
+	<div class="image_wrap">
+		<img src="https://static.1000.menu/img/content-v2/de/ce/9965/varene-iz-oduvanchikov_1587029105_11_max.jpg" width="200px">
+	</div>
+	</div>
+	<div class="about_right">
+		<div class="text_wrap">
+		<p class="padd">
+			<h2>Шаг 7:</h2><br>
+			После закипания, добавляем очень важный ингредиент - лимонную кислоту.<br>
+			Она закрепит красивый желтый цвет варенья и не даст сахару кристаллизоваться.
+		</p>
+		</div>
+	<div class="image_wrap">
+		<img src="https://static.1000.menu/img/content-v2/de/ce/9965/varene-iz-oduvanchikov_1587029105_12_max.jpg" width="200px">
+	</div>
+	</div>
+	<div class="about_right">
+		<div class="text_wrap">
+		<p class="padd">
+			<h2>Шаг 8:</h2><br>
+			Кипятить одуванчики нужно 30 минут, но самое главное - на медленном огне.<br>
+			Затем отключаем огонь и даем отвару настояться в течении часа.<br>
+			Уже на этом этапе вы почувствуете очень приятный аромат меда.
+		</p>
+		</div>
+	<div class="image_wrap">
+		<img src="https://static.1000.menu/img/content-v2/de/ce/9965/varene-iz-oduvanchikov_1587029105_13_max.jpg" width="200px">
+	</div>
+	</div>
+	<div class="about_right">
+		<div class="text_wrap">
+		<p class="padd">
+			<h2>Шаг 9:</h2><br>
+			Процеживаем отвар через двойной слой марли и хорошо отжимаем цветки.<br>
+			Добавляем сахар и снова ставим варенье на огонь.<br>
+			Сначала нужно постоянно помешивать варенье ложкой, чтобы сахар не пригорел ко дну кастрюли.<br>
+			Когда весь сахар растворится, варенье можно больше не мешать. Варим еще около 30 минут.<br>
+			Чем дольше варится варенье, тем гуще оно будет.
+		</p>
+		</div>
+	<div class="image_wrap">
+		<img src="https://static.1000.menu/img/content-v2/de/ce/9965/varene-iz-oduvanchikov_1587029105_14_max.jpg" width="200px">
+	</div>
+	</div>
+	<div class="about_right">
+		<div class="text_wrap">
+		<p class="padd">
+			<h2>Шаг 10:</h2><br>
+			Готовое варенье горячим разливаем по банкам.<br>
+			После остывания варенье из одуванчика загустеет,<br>
+			пена осядет и оно станет похоже на пчелиный мед.
+		</p>
+		</div>
+	<div class="image_wrap">
+		<img src="https://static.1000.menu/img/content-v2/de/ce/9965/varene-iz-oduvanchikov_1587029105_15_max.jpg" width="200px">
+	</div>
+	</div>
+		<div style="text-indent:525px;">
+			<a href="https://1000.menu/cooking/9965-varene-iz-oduvanchikov#steps" target="new tab">Источник</a><br>
+		</div>
+	</body>
+</html>
+
