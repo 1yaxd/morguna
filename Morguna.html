@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Morguna</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <style>
+  
+   body {
+   margin-left:400px;
+    width: 1000px;	height: 2510px; 
+    outline: 2px solid #000; 
+	
+   }
+	* {box-sizing: border-box;}
+		form {
+	position: relative;
+	width: 300px;
+	margin: 0 auto;
+	}
+	input, button {
+		outline: none;
+		background: transparent;
+	}
+	input {
+		width: 100%;
+		height: 25px;
+		padding-left: 15px;
+		border: 3px solid #FFFFF;
+	}
+	button {
+		border: none;
+		height: 25px;
+		width: 42px;
+		position: absolute;
+		top: 0;
+		right: 0;
+		cursor: pointer;
+	}
+	button:before {
+		content: "\f002";
+		font-family: FontAwesome;
+		font-size: 16px;
+		color: #FFFFF;
+		}
+	input:focus {
+		border-color: #311c24;
+	}
+	.block {
+		height: 15px;
+		width: 150px;
+		display: inline-block;
+	}
+	.block1 {
+		height: 100px;
+		width: 450px;
+		display: inline-block;
+	}
+	a.button1 {
+		font-weight: 700;
+		color: black;
+		text-decoration: none;
+		padding: .8em 1em calc(.8em + 3px);
+		border-radius: 3px;
+		background: rgba(240, 168, 12, 0.7);
+		transition: 0.2s;
+	} 
+		a.button1:hover { background: rgba(171, 125, 26, 0.7); }
+		a.button1:active {
+		background: rgba(138, 114, 18);
+	}
+	a.button2 {
+		font-weight: 700;
+		color: black;
+		text-decoration: none;
+		padding: .8em 1em calc(.8em + 3px);
+		border-radius: 3px;
+		background: rgba(20, 212, 255, 0.7);
+		transition: 0.2s;
+	} 
+		a.button2:hover { background: rgba(48, 167, 194, 0.7); }
+		a.button2:active {
+		background: rgba(57, 148, 168);
+	}
+	.bgc{
+		background:rgba(83, 212, 111,0.7);
+	}
+	.slider {
+		position: relative;
+		max-width: 1000px;
+	}
+
+	.slider input[name="switch"] {
+		display: none;
+	}
+
+	.switch {
+		position: absolute;
+		left: 0;
+		bottom: -40px;
+		text-align: center;
+		width: 100%;
+	}
+
+	.switch label {
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		cursor: pointer;
+		margin: 0 3px;
+		border-radius: 50%;
+		border: 5px solid #2f363c;
+		background-color: #738290;
+	}
+
+	#btn1:checked~.switch label[for="btn1"] {
+		background-color: white;
+	}
+
+	#btn2:checked~.switch label[for="btn2"] {
+		background-color: white;
+	}
+
+	#btn3:checked~.switch label[for="btn3"] {
+		background-color: white;
+	}
+
+	.slider-inner {
+		overflow: hidden;
+  
+	}
+
+	.slides {
+		display: flex;
+		width: 100%;
+		transition: all 0.5s;
+	}
+
+	.slides p {
+		width: 100%;
+		flex-shrink:0;
+	}
+
+	#btn1:checked~slider-inner slides {
+		transform: translate(0);
+	}
+
+	#btn2:checked~.slider-inner .slides {
+		transform: translateX(-100%);
+	}
+
+	#btn3:checked~.slider-inner .slides {
+		transform: translateX(-200%);
+	}	
+	.ppp
+	{
+		width:33%;
+		text-align:center;
+		float: left;
+	}
+	</style>
+ </head>
+ <body>
+	<div  style="margin-left:650px; margin-top:50px;">
+		<form>
+			<input type="text" placeholder="Meklet">
+			<button type="submit"></button>
+		</form>
+
+	</div>
+	<div style="margin-left:50px;class="container">
+		<h3 class="block">Logo</h3>
+		<h3 class="block"style="margin-left:250px">Sakums</h3>
+		<h3 class="block">Par mums</h3>
+		<h3 class="block">Kontakti</h3>
+	</div>
+	<div  style="width: 1000px;	height: 400px; 
+    outline: 2px solid #000;">
+		<h1 style="padding-left:50px; padding-top:70px;">Galvenais virsraksts</h1>
+		<p class="block1" style="padding-left:50px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+		Aliguam risus negue, consectetur vitae semper et, sodales<br>
+		eget arcu. Aliguam dapibus nunc eget feugiat tincidunt. </p>
+		<p class="block1" style="padding-left:50px; opacity: 0.5; font-size:30px">Fona bilde pa visu platumu</p>
+		<a href="#" style="margin-left:50px;" class="button1">Lasit vairāk</a>
+		<a href="#" style="margin-left:25px;" class="button2">pieteikties</a>
+	</div>
+		<div  style="width: 1000px;	height: 400px; 
+    padding-left:40px;padding-top:50px;">
+		<div  style="width: 300px;	height: 120px; 
+		outline: 2px solid #000;padding-left:110px;padding-top:55px;display: inline-block;">
+			Ziņas bilde
+		</div>
+		<div  style="width: 300px;	height: 120px; 
+		outline: 2px solid #000;padding-left:110px;padding-top:55px; margin-left: 5px;display: inline-block;">
+			Ziņas bilde
+		</div>
+		
+		<div  style="width: 300px;	height: 120px; 
+		outline: 2px solid #000;padding-left:110px;padding-top:55px;margin-left: 5px;display: inline-block;">
+			Ziņas bilde
+		</div>
+		<div style="margin-top: 15px;display: inline-block;">
+			<h3 strong>
+			Kaut kāds ziņas<br>
+			virsraksts, kurš var būs virsraksts<br>
+			garš, vai īss<br>
+			</h3>
+			<p style="padding-left:200px"><u>Lasit vairāk</u></p>
+		</div>
+		
+		<div style="margin-top: 15px;margin-left: 30px;display: inline-block;">
+			<h3 strong>
+			Kaut kāds ziņas<br>
+			virsraksts<br>
+			</h3>
+			<p style="padding-left:200px"><u>Lasit vairāk</u></p>
+		</div>
+		
+		<div style="margin-top: 15px;margin-left: 30px;display: inline-block;">
+			<h3 strong>
+			Kaut kāds<br>
+			
+			</h3>
+			<p style="padding-left:200px"><u>Lasit vairāk</u></p>
+		</div>
+	</div>
+	<div class="bgc" style="width: 1000px;	height: 270px; 
+    outline: 2px solid #000;padding-left:40px;padding-top:70px;">
+		<h1 strong style="margin-left:320px">Reklāmas virsraksts</h1>
+		<a href="#" style="margin-left:250px;padding-left:70px;padding-right:70px;" class="button1">Pirkts</a>
+		<a href="#" style="margin-left:25px;padding-left:65px;padding-right:65px;" class="button2">Izmēģināt</a>
+	</div>
+	<div>
+	<div class="slider">
+		<input type="radio" name="switch" id="btn1" checked>
+		<input type="radio" name="switch" id="btn2">
+		<input type="radio" name="switch" id="btn3">
+  
+	<div class="switch">
+		<label for="btn1"></label>
+		<label for="btn2"></label>
+		<label for="btn3"></label>
+	</div>
+  
+	<div class="slider-inner" style="width: 1000px;	height: 500px;">
+		<div class="slides">
+	
+			<p strong;big style="margin-left:450px;margin-top:215px">Bilde Pa visu</p>
+			<p strong;big style="margin-top:215px">Bilde Pa visu</p>
+			<p strong;big style="margin-top:215px">Bilde Pa visu</p>
+		</div>
+	</div>
+	</div>
+  <div  style="width: 1000px;	height: 550px; 
+    outline: 2px solid #000;padding-left:40px;padding-top:70px;margin-top:50px">
+		<h1 strong>Heading</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+		sed do elusmod tempor incididunt ut labore et
+		dolore magna aliqua</p>
+		<p  style="margin-left:150px">
+			<ul>
+				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+				Aliquam risu</li>
+				<li>Lorem ipsum dolor sit amet, consectetur</li>
+				<li>Lor em ipsu m dolor sit amet, consectetur ad piscing elit</li>
+			</ul>
+		</p>
+		<div style="width: 900px;	height: 250px; 
+		outline: 1px solid #000;padding-left:95px;
+		margin-left: 5px;display: inline-block;">
+		<p style="margin-top: 15px;margin-top: 35px;margin-left: 15px;display: inline-block;">Value 1</p>
+		<p style="margin-top: 15px;margin-top: 35px;margin-left: 250px;display: inline-block;">Value 2</p>
+		<p style="margin-top: 15px;margin-top: 35px;margin-left: 250px;display: inline-block;">Value 3</p><br>
+		
+		<p style="margin-top: 15px;margin-top: 35px;margin-left: 15px;display: inline-block;">Value 4</p>
+		<p style="margin-top: 15px;margin-top: 35px;margin-left: 250px;display: inline-block;">Value 5</p>
+		<p style="margin-top: 15px;margin-top: 35px;margin-left: 250px;display: inline-block;">Value 6</p><br>
+		
+		<p style="margin-top: 15px;margin-top: 35px;margin-left: 15px;display: inline-block;">Value 7</p>
+		<p style="margin-top: 15px;margin-top: 35px;margin-left: 250px;display: inline-block;">Value 8</p>
+		<p style="margin-top: 15px;margin-top: 35px;margin-left: 250px;display: inline-block;">Value 9</p>
+		</div>
+	</div>
+	<div  style="width: 1000px;	height: 200px; 
+    padding-left:40px;padding-top:50px; background:rgba(235, 165, 84, 0.7);">
+		<p class="ppp"style="width: 270px;	height: 100px;display: inline-block; padding-bottom:60px;padding-top:25px;">Logo</p>
+		  
+		<p class="ppp"style="width: 270px;	height: 100px;margin-left:40px;padding-bottom:3px;padding-top:5px;display: inline-block;">
+			<strong>Kontakti:</strong><br>
+			E-pasts: xxxxxxx@gmail.com<br>
+			Tel: +371 1234567
+		</p>
+		<p class="ppp"style="width: 270px;	height: 100px;margin-left:40px;display: inline-block;">
+			<strong>Izvēlne:</strong><br>
+			<u>sākums<br>
+			Par mums<br>
+			Kontakti</u>
+			
+		</p>
+
+	</div>
+	<div  style="width: 1000px;	height: 40px;outline: 1px solid #000; 
+    padding-left:420px;padding-top:1px; background:rgba(235, 84, 84, 0.5);">
+		<p>Autors: Sofija Morguna</p>
+	</div>
+ </body>
+</html>
