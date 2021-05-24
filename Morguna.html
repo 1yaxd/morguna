@@ -112,7 +112,32 @@
 		border: 5px solid #2f363c;
 		background-color: #738290;
 	}
-
+	  #main {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      #okno {
+        width: 300px;
+        height: 50px;
+		background: rgba(255, 255, 255, 0.7);
+        text-align: center;
+        padding: 15px;
+        border: 3px solid #0000cc;
+        border-radius: 10px;
+        color: #0000cc;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+      }
+      #main:target {display: block;}
+      #okno:target {display: block;}
 	#btn1:checked~.switch label[for="btn1"] {
 		background-color: white;
 	}
@@ -169,66 +194,75 @@
 
 	</div>
 	<div style="margin-left:50px;class="container">
-		<h3 class="block">Logo</h3>
-		<h3 class="block"style="margin-left:250px">Sakums</h3>
-		<h3 class="block">Par mums</h3>
-		<h3 class="block">Kontakti</h3>
+		<img class="block; width=150" src="https://anata-mebel.ru/image/data/categs/image-14-10-19-03-50.png" width=100 height=100>
+		<a href="#main"><h3 class="block"style="margin-left:250px">Sakums</h3></a>
+		<a href="#main"><h3 class="block">Par mums</h3></a>
+		<a href="#main"><h3 class="block">Kontakti</h3></a>
 	</div>
 	<div  style="width: 1000px;	height: 400px; 
     outline: 2px solid #000;">
-		<h1 style="padding-left:50px; padding-top:70px;">Galvenais virsraksts</h1>
+		<h1 style="padding-left:50px; padding-top:70px;">Mēbeļu veikals</h1>
 		<p class="block1" style="padding-left:50px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
 		Aliguam risus negue, consectetur vitae semper et, sodales<br>
 		eget arcu. Aliguam dapibus nunc eget feugiat tincidunt. </p>
 		<p class="block1" style="padding-left:50px; opacity: 0.5; font-size:30px">Fona bilde pa visu platumu</p>
-		<a href="#" style="margin-left:50px;" class="button1">Lasit vairāk</a>
-		<a href="#" style="margin-left:25px;" class="button2">pieteikties</a>
+		<a href="#main" style="margin-left:50px;" class="button1">Katalogs</a>
+		<a href="#main" style="margin-left:25px;" class="button2">Pasūtiet</a>
 	</div>
 		<div  style="width: 1000px;	height: 400px; 
     padding-left:40px;padding-top:50px;">
-		<div  style="width: 300px;	height: 120px; 
-		outline: 2px solid #000;padding-left:110px;padding-top:55px;display: inline-block;">
-			Ziņas bilde
+		<div  style="width: 300px;	height: 120px; padding-left:50px;
+		outline: 2px solid #000;display: inline-block;">
+			<img style="width: 200px;	height: 120px;" src="https://cdn.mebelvia.ru/upload/resize_cache/iblock/7c3/750_563_1/divan-knizhka_elpida_5003900010115_2.jpg?161970632363189">
 		</div>
 		<div  style="width: 300px;	height: 120px; 
-		outline: 2px solid #000;padding-left:110px;padding-top:55px; margin-left: 5px;display: inline-block;">
-			Ziņas bilde
+		outline: 2px solid #000;padding-left:50px; margin-left: 5px;display: inline-block;">
+			<img style="width: 200px;	height: 120px;" src="https://cdn.mebelvia.ru/upload/resize_cache/iblock/4e0/750_563_1/uglovoi_divan_mansberg_5003800110018_2.jpg?161970527898687">
 		</div>
 		
 		<div  style="width: 300px;	height: 120px; 
-		outline: 2px solid #000;padding-left:110px;padding-top:55px;margin-left: 5px;display: inline-block;">
-			Ziņas bilde
+		outline: 2px solid #000;padding-left:50px;margin-left: 5px;display: inline-block;">
+			<img style="width: 200px;	height: 120px;" src="https://cdn.mebelvia.ru/upload/resize_cache/iblock/a9c/750_563_1/uglovoi_divan_polo_pravyi_5007600070009_2.jpg?1619705888101447">
 		</div>
 		<div style="margin-top: 15px;display: inline-block;">
 			<h3 strong>
-			Kaut kāds ziņas<br>
-			virsraksts, kurš var būs virsraksts<br>
-			garš, vai īss<br>
-			</h3>
-			<p style="padding-left:200px"><u>Lasit vairāk</u></p>
-		</div>
-		
-		<div style="margin-top: 15px;margin-left: 30px;display: inline-block;">
-			<h3 strong>
-			Kaut kāds ziņas<br>
-			virsraksts<br>
-			</h3>
-			<p style="padding-left:200px"><u>Lasit vairāk</u></p>
-		</div>
-		
-		<div style="margin-top: 15px;margin-left: 30px;display: inline-block;">
-			<h3 strong>
-			Kaut kāds<br>
+			Melns ādas dīvāns
 			
 			</h3>
-			<p style="padding-left:200px"><u>Lasit vairāk</u></p>
+			
+			<p style="padding-left:180px"><u><a href="#main">Pērciet ar atlaidi</a></u></p>
 		</div>
+		
+		<div style="margin-top: 15px;margin-left: 30px;display: inline-block;">
+			<h3 strong>
+			Pelēks dīvāns no<br> 
+			valitatīva blīva auduma
+			</h3>
+			<p style="padding-left:180px"><u><a href="#main">Pērciet ar atlaidi</a></u></p>
+		</div>
+		
+		<div style="margin-top: 15px;margin-left: 30px;display: inline-block;">
+			<h3 strong>
+			Zils dīvāns no<br>
+			kvalitatīva blīva auduma
+			
+			</h3>
+			<p style="padding-left:180px"><u><a href="#main">Pērciet ar atlaidi</a></u></p>
+		</div>
+		<a href="#" id="main">
+      <div id="okno">
+        Vēl neesat gatavs!
+      </div>
+    </a>
+	
 	</div>
+	
+	
 	<div class="bgc" style="width: 1000px;	height: 270px; 
     outline: 2px solid #000;padding-left:40px;padding-top:70px;">
-		<h1 strong style="margin-left:320px">Reklāmas virsraksts</h1>
-		<a href="#" style="margin-left:250px;padding-left:70px;padding-right:70px;" class="button1">Pirkts</a>
-		<a href="#" style="margin-left:25px;padding-left:65px;padding-right:65px;" class="button2">Izmēģināt</a>
+		<h1 strong style="margin-left:380px">Interjeri</h1>
+		<a href="#main" style="margin-left:180px;padding-left:70px;padding-right:70px;" class="button1">Gatavas telpas</a>
+		<a href="#main" style="margin-left:25px;padding-left:65px;padding-right:65px;" class="button2">Interjera redaktors</a>
 	</div>
 	<div>
 	<div class="slider">
@@ -245,9 +279,9 @@
 	<div class="slider-inner" style="width: 1000px;	height: 500px;">
 		<div class="slides">
 	
-			<p strong;big style="margin-left:450px;margin-top:215px">Bilde Pa visu</p>
-			<p strong;big style="margin-top:215px">Bilde Pa visu</p>
-			<p strong;big style="margin-top:215px">Bilde Pa visu</p>
+			<p><img style="width: 1000px;	height: 600px;" src="https://cdn.mebelvia.ru/upload/resize_cache/iblock/813/750_563_1/spalnia_uiut_5500100090056_2.jpg?1619706514227474"></p>
+			<p><img style="width: 1000px;	height: 600px;" src="https://cdn.mebelvia.ru/upload/resize_cache/iblock/8c2/750_563_1/spalnia_oliviia_5500100090047_5.jpg?1619705649204626"></p>
+			<p ><img style="width: 1000px;	height: 600px;" src="https://cdn.mebelvia.ru/upload/resize_cache/iblock/0dc/750_563_1/spalnia_iulianna_5500100090001_5.jpg?1619705795287726"></p>
 		</div>
 	</div>
 	</div>
@@ -281,9 +315,9 @@
 		<p style="margin-top: 15px;margin-top: 35px;margin-left: 250px;display: inline-block;">Value 9</p>
 		</div>
 	</div>
-	<div  style="width: 1000px;	height: 200px; 
-    padding-left:40px;padding-top:50px; background:rgba(235, 165, 84, 0.7);">
-		<p class="ppp"style="width: 270px;	height: 100px;display: inline-block; padding-bottom:60px;padding-top:25px;">Logo</p>
+	<div  style="width: 1000px;	height: 178px; 
+    padding-left:40px;padding-top:40px; background:rgba(235, 165, 84, 0.7);">
+		<p class="ppp"style="width: 270px;	height: 100px;display: inline-block; padding-bottom:60px"><img class="block; width=150" src="https://anata-mebel.ru/image/data/categs/image-14-10-19-03-50.png" width=100 height=100></p>
 		  
 		<p class="ppp"style="width: 270px;	height: 100px;margin-left:40px;padding-bottom:3px;padding-top:5px;display: inline-block;">
 			<strong>Kontakti:</strong><br>
